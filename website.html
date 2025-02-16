@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple E-Commerce Website</title>
+    <link rel="stylesheet" href="css/style.css">
+
+    <style>
+        body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 15px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+#hype {
+    text-align: center;
+    background-color: #008CBA;
+    padding: 40px;
+    color: white;
+}
+
+#products {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px;
+}
+
+.product {
+    background-color: white;
+    padding: 20px;
+    border: 1px solid #ddd;
+    width: 30%;
+    text-align: center;
+}
+
+.product img {
+    width: 100%;
+    height: auto;
+}
+
+button {
+    background-color: #333;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #555;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    
+    width: 100%;
+    bottom: 0;
+}
+
+    </style>
+</head>
+<body>
+    <!-- Navigation -->
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Shop</a></li>
+                <li><a href="#">Cart</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hype Section (Banner) -->
+    <section id="hype">
+        <h1>Welcome to Our Shop!</h1>
+        <p>Browse our exclusive collection of products.</p>
+    </section>
+
+    <!-- Product Listings -->
+    <section id="products">
+        <h2>Featured Products</h2>
+        <div class="product">
+            <img src="gym equipment.webp" alt="Product 1">
+            <form action="https://www.flipkart.com/l-avenir-fitness-kit-3ft-straight-curl-barbell-accessories-best-exercise-accessory-kit/p/itmaa02f0f70907e?pid=KITH78SJDE3DC6FE&lid=LSTKITH78SJDE3DC6FE7HH1LC&marketplace=FLIPKART&q=gym+equipment&store=qoc%2Famf&srno=s_1_2&otracker=AS_QueryStore_OrganicAutoSuggest_1_6_na_na_na&otracker1=AS_QueryStore_OrganicAutoSuggest_1_6_na_na_na&fm=search-autosuggest&iid=en_xlkjjNjRDseblKJFyiBRrzU3XFogHKlIQP256-mz2EysPH-mKWz_1yXXW12yL4y7ugQyZggRlNMo-Egg7fDy_Q%3D%3D&ppt=sp&ppn=sp&ssid=dzt7ibiko00000001739727423829&qH=09c628724dff746e" method="get" enctype="multipart/form-data">
+            <h3>Product 1</h3>
+            <p>$19.17</p>
+            <button>Add to Cart</button></form>
+        </div>
+        <div class="product">
+            <img src="mass gainer.jpeg" alt="Product 2">
+            <form action="https://www.flipkart.com/muscleblaze-super-xxl-muscle-weight-gainers-mass-gainers/p/itm150cc9dcdc899?pid=PSLG48E62H7EBEWZ&lid=LSTPSLG48E62H7EBEWZ0COPNC&marketplace=FLIPKART&q=supplement+protein&store=hlc%2Fetg%2F1rx&srno=s_1_3&otracker=AS_QueryStore_OrganicAutoSuggest_1_5_na_na_na&otracker1=AS_QueryStore_OrganicAutoSuggest_1_5_na_na_na&fm=search-autosuggest&iid=02c56864-4df9-49eb-bc5e-88535beeb6b8.PSLG48E62H7EBEWZ.SEARCH&ppt=sp&ppn=sp&ssid=mhh65qk0000000001739726248376&qH=83df106ce5cbfb73" method="get" enctype="multipart/form-data">
+            <h3>Product 2</h3>
+            <p>$6.96</p>
+            <button>Add to Cart</button></form>
+        </div>
+        <div class="product">
+            <img src="vitamin e.webp" alt="Product 3">
+            <form action="https://www.flipkart.com/vlado-s-himalayan-organics-plant-based-vitamin-e-capsules-30/p/itm7faee2335f8ae?pid=VSLFXNGHCPRDZEKX&lid=LSTVSLFXNGHCPRDZEKXGJO72B&marketplace=FLIPKART&q=vitamin+e+capsules&store=hlc%2Fetg%2Fqtw&srno=s_1_2&otracker=AS_QueryStore_OrganicAutoSuggest_1_9_na_na_na&otracker1=AS_QueryStore_OrganicAutoSuggest_1_9_na_na_na&fm=search-autosuggest&iid=en_SitHX3EQcSIZI9fcGWACy2KwKw5p9lsmm1K1xJE6XUI0SwggJMIrS0GP3S0zLzx9QI0jnkvFqgz-wtd8iLwmhA%3D%3D&ppt=sp&ppn=sp&ssid=8u6prrigow0000001739726613589&qH=5369a4f754f40760" method="get" enctype="multipart/form-data">
+            <h3>Product 3</h3>
+            <p>$8.94</p>
+            <button>Add to Cart</button> </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <br><br><p>&copy; 2025 E-Commerce Website. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
